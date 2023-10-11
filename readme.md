@@ -40,7 +40,7 @@
 3. `pref/13/city/658.md`
 
 ### データのIDを確認する方法
-[カケコム検索画面](https://www.kakekomu.com/search)に移動します。
+[カケコム検索画面](https://www.kakekomu.com/search) に移動します。
 
 検索画面で条件を指定するとURLにデータのIDが変わります。そのIDを使います。
 
