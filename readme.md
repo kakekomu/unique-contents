@@ -10,10 +10,14 @@
 パスで表示条件を表します。
 `[]`は変数を意味します。
 
+優先順位は: カテゴリー→ 詳細分野 → 都道府県 → 市区町村
+
 - カテゴリーにマッチ：`cat/[catId].md`
 - サブカテゴリーにマッチ：`cat/[catId]/sub_cat/[subCatId].md`
 - 都道府県にマッチ：`/pref/[prefId].md`
 - 市区町村にマッチ：`/pref/[prefId]/city/[cityId].md`
+- カテゴリー・都道府県にマッチ：`cat/[catId]/pref/[prefId].md`
+- 詳細分野・市区町村マッチ：`cat/[catId]/sub_cat/[subCatid]/pref/[prefId]/city/[cityId].md`
 
 ### 例 (各IDの確認方法は次の項で説明)
 
