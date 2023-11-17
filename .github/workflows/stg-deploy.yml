@@ -22,5 +22,7 @@ jobs:
       - name: Run a one-line script
         env: 
           X_API_KEY: ${{ secrets.X_API_KEY }}
-        run: curl --location --request POST "https://nest-api.lagunitas.work/admin/tools/unique-content" --header "x-api-key: $X_API_KEY"
+        run: |
+          curl --location --request POST "https://nest-api.lagunitas.work/admin/tools/unique-content" \
+          --header "x-api-key: $X_API_KEY"
 
